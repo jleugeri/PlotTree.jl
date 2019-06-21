@@ -1,0 +1,1038 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    height="150mm"
+    width="390mm"
+    viewBox="0 0 390 150">
+    <path
+    style="
+        opacity:1;
+        fill:green;
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+    d=" 
+        M 250 20
+        a 5.0 5.0, 0, 0, 0, -10 0
+        Z
+    "
+/>
+
+
+<path
+    style="
+        opacity:1;
+        fill:green;
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+    d=" 
+        M 300 20
+        a 5.0 5.0, 0, 0, 0, -10 0
+        Z
+    "
+/>
+
+
+<path
+    style="
+        opacity:1;
+        fill:green;
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+    d=" 
+        M 350 20
+        a 5.0 5.0, 0, 0, 0, -10 0
+        Z
+    "
+/>
+
+
+<path
+    style="
+        opacity:1;
+        fill:green;
+        stroke:none;
+        paint-order:markers fill stroke" 
+    d="
+        M 240 30
+        a 10.0,10.0 0 0 0 10.0,10.0 
+        h 21.0 
+        v -10 
+        h -21.0 
+        a 0.0,0.0 0 0 1 -0.0,-0.0 
+        Z"
+/>
+<path
+    style="
+        opacity:1;
+        fill:none;
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+    d="
+        M 240 30
+        a 10.0,10.0 0 0 0 10.0,10.0 
+        h 21.0 
+        m 0 -10 
+        h -21.0 
+        a 0.0,0.0 0 0 1 -0.0,-0.0 
+        "
+/>
+
+
+<path
+    style="
+        opacity:1;
+        fill:green;
+        stroke:none;
+        paint-order:markers fill stroke" 
+    d="
+        M 290 30
+        h 10
+        v 10
+        h -10 
+        a 0.0,0.0 0 0 0 -0.0,-0.0
+        h -21.0
+        v -10
+        h 21.0
+        a 0.0,0.0 0 0 0 0.0,-0.0
+        Z"
+/>
+<path
+    style="
+        opacity:1;
+        fill:none;
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+    d="
+        M 290 30
+        h 10
+        v 10
+        h -10 
+        a 0.0,0.0 0 0 0 -0.0,-0.0
+        h -21.0
+        m 0 -10
+        h 21.0
+        a 0.0,0.0 0 0 0 0.0,-0.0
+        "
+/>
+
+
+<rect
+    height="10" 
+    width="10" 
+    style="
+        opacity:1;
+        fill:green;
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+    x="340"
+    y="30"
+/>
+
+
+<path
+    style="
+        opacity:1;
+        fill:green;
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+    d=" 
+        M 50 60
+        a 5.0 5.0, 0, 0, 0, -10 0
+        Z
+    "
+/>
+
+
+<path
+    style="
+        opacity:1;
+        fill:green;
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+    d=" 
+        M 100 60
+        a 5.0 5.0, 0, 0, 0, -10 0
+        Z
+    "
+/>
+
+
+<path
+    style="
+        opacity:1;
+        fill:green;
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+    d=" 
+        M 150 60
+        a 5.0 5.0, 0, 0, 0, -10 0
+        Z
+    "
+/>
+
+
+<path
+    style="
+        opacity:1;
+        fill:green;
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+    d=" 
+        M 200 60
+        a 5.0 5.0, 0, 0, 0, -10 0
+        Z
+    "
+/>
+
+
+<path
+    style="
+        opacity:1;
+        fill:green;
+        stroke:none;
+        paint-order:markers fill stroke" 
+    d="
+        M 300 50
+        h -10
+        v 10
+        h 10 
+        a 0.0,0.0 0 0 1 0.0,-0.0
+        h 21.0
+        v -10
+        h -21.0
+        a 0.0,0.0 0 0 1 -0.0,-0.0
+        Z"
+/>
+<path
+    style="
+        opacity:1;
+        fill:none;
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+    d="
+        M 300 50
+        h -10
+        v 10
+        h 10 
+        a 0.0,0.0 0 0 1 0.0,-0.0
+        h 21.0
+        m 0 -10
+        h -21.0
+        a 0.0,0.0 0 0 1 -0.0,-0.0
+        "
+/>
+
+
+<path
+    style="
+        opacity:1;
+        fill:green;
+        stroke:none;
+        paint-order:markers fill stroke" 
+    d="
+        M 350 50
+        a 10.0,10.0 0 0 1 -10.0,10.0 
+        h -21.0 
+        v -10 
+        h 21.0 
+        a 0.0,0.0 0 0 0 0.0,-0.0 
+        Z"
+/>
+<path
+    style="
+        opacity:1;
+        fill:none;
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+    d="
+        M 350 50
+        a 10.0,10.0 0 0 1 -10.0,10.0 
+        h -21.0 
+        m 0 -10 
+        h 21.0 
+        a 0.0,0.0 0 0 0 0.0,-0.0 
+        "
+/>
+
+
+<path
+    style="
+        opacity:1;
+        fill:green;
+        stroke:none;
+        paint-order:markers fill stroke" 
+    d="
+        M 40 70
+        a 10.0,10.0 0 0 0 10.0,10.0 
+        h 21.0 
+        v -10 
+        h -21.0 
+        a 0.0,0.0 0 0 1 -0.0,-0.0 
+        Z"
+/>
+<path
+    style="
+        opacity:1;
+        fill:none;
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+    d="
+        M 40 70
+        a 10.0,10.0 0 0 0 10.0,10.0 
+        h 21.0 
+        m 0 -10 
+        h -21.0 
+        a 0.0,0.0 0 0 1 -0.0,-0.0 
+        "
+/>
+
+
+<path
+    style="
+        opacity:1;
+        fill:green;
+        stroke:none;
+        paint-order:markers fill stroke" 
+    d="
+        M 90 70
+        h 10
+        a 0.0,0.0 0 0 0 0.0,0.0
+        h 21.0
+        v 10
+        h -52.0
+        v -10
+        h 21.0
+        a 0.0,0.0 0 0 0 0.0,-0.0
+        Z"
+/>
+<path
+    style="
+        opacity:1;
+        fill:none;
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+    d="
+        M 90 70
+        h 10
+        a 0.0,0.0 0 0 0 0.0,0.0
+        h 21.0
+        m 0 10
+        h -52.0
+        m 0 -10
+        h 21.0
+        a 0.0,0.0 0 0 0 0.0,-0.0
+        "
+/>
+
+
+<path
+    style="
+        opacity:1;
+        fill:green;
+        stroke:none;
+        paint-order:markers fill stroke" 
+    d="
+        M 140 70
+        h 10
+        a 0.0,0.0 0 0 0 0.0,0.0
+        h 21.0
+        v 10
+        h -21.0
+        a 0.0,0.0 0 0 0 -0.0,0.0
+        h -10 
+        a 0.0,0.0 0 0 0 -0.0,-0.0
+        h -21.0
+        v -10
+        h 21.0
+        a 0.0,0.0 0 0 0 0.0,-0.0
+        Z"
+/>
+<path
+    style="
+        opacity:1;
+        fill:none;
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+    d="
+        M 140 70
+        h 10
+        a 0.0,0.0 0 0 0 0.0,0.0
+        h 21.0
+        m 0 10
+        h -21.0
+        a 0.0,0.0 0 0 0 -0.0,0.0
+        h -10 
+        a 0.0,0.0 0 0 0 -0.0,-0.0
+        h -21.0
+        m 0 -10
+        h 21.0
+        a 0.0,0.0 0 0 0 0.0,-0.0
+        "
+/>
+
+
+<path
+    style="
+        opacity:1;
+        fill:green;
+        stroke:none;
+        paint-order:markers fill stroke" 
+    d="
+        M 200 70
+        a 10.0,10.0 0 0 1 -10.0,10.0 
+        h -21.0 
+        v -10 
+        h 21.0 
+        a 0.0,0.0 0 0 0 0.0,-0.0 
+        Z"
+/>
+<path
+    style="
+        opacity:1;
+        fill:none;
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+    d="
+        M 200 70
+        a 10.0,10.0 0 0 1 -10.0,10.0 
+        h -21.0 
+        m 0 -10 
+        h 21.0 
+        a 0.0,0.0 0 0 0 0.0,-0.0 
+        "
+/>
+
+
+<rect
+    height="10" 
+    width="10" 
+    style="
+        opacity:1;
+        fill:green;
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+    x="290"
+    y="70"
+/>
+
+
+<path
+    style="
+        opacity:1;
+        fill:green;
+        stroke:none;
+        paint-order:markers fill stroke" 
+    d="
+        M 140 90
+        a 10.0,10.0 0 0 0 10.0,10.0 
+        h 21.0 
+        v -10 
+        h -21.0 
+        a 0.0,0.0 0 0 1 -0.0,-0.0 
+        Z"
+/>
+<path
+    style="
+        opacity:1;
+        fill:none;
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+    d="
+        M 140 90
+        a 10.0,10.0 0 0 0 10.0,10.0 
+        h 21.0 
+        m 0 -10 
+        h -21.0 
+        a 0.0,0.0 0 0 1 -0.0,-0.0 
+        "
+/>
+
+
+<path
+    style="
+        opacity:1;
+        fill:green;
+        stroke:none;
+        paint-order:markers fill stroke" 
+    d="
+        M 190 100
+        h 10
+        a 0.0,0.0 0 0 1 0.0,-0.0
+        h 21.0
+        v -10
+        h -52.0
+        v 10
+        h 21.0
+        a 0.0,0.0 0 0 1 0.0,0.0
+        Z"
+/>
+<path
+    style="
+        opacity:1;
+        fill:none;
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+    d="
+        M 190 100
+        h 10
+        a 0.0,0.0 0 0 1 0.0,-0.0
+        h 21.0
+        m 0 -10
+        h -52.0
+        m 0 10
+        h 21.0
+        a 0.0,0.0 0 0 1 0.0,0.0
+        "
+/>
+
+
+<path
+    style="
+        opacity:1;
+        fill:green;
+        stroke:none;
+        paint-order:markers fill stroke" 
+    d="
+        M 220 90.0
+        h 51.0
+        v 10
+        h -51.0
+        Z"
+/>
+<path
+    style="
+        opacity:1;
+        fill:none;
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+    d="
+        M 220 90.0
+        h 51.0
+        m 0 10
+        h -51.0
+        "
+/>
+
+
+<path
+    style="
+        opacity:1;
+        fill:green;
+        stroke:none;
+        paint-order:markers fill stroke" 
+    d="
+        M 300 90
+        a 10.0,10.0 0 0 1 -10.0,10.0 
+        h -21.0 
+        v -10 
+        h 21.0 
+        a 0.0,0.0 0 0 0 0.0,-0.0 
+        Z"
+/>
+<path
+    style="
+        opacity:1;
+        fill:none;
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+    d="
+        M 300 90
+        a 10.0,10.0 0 0 1 -10.0,10.0 
+        h -21.0 
+        m 0 -10 
+        h 21.0 
+        a 0.0,0.0 0 0 0 0.0,-0.0 
+        "
+/>
+
+
+<path
+    style="
+        opacity:1;
+        fill:green;
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke"
+
+    d="
+        M 200 110
+        h -10
+        v 10
+        c 0.0,2.186866 -10.000293333333333,6.603464 -10.00025,7.696864 6.0e-5,1.093422 11.431223333333334,1.924966 11.431223333333334,1.924966 0.0,0.0 2.5297333333333336,0.10528 1.3989333333333334,1.094356 -1.1307933333333333,0.989092 -3.1887700000000003,1.945074 -7.855616666666667,1.945074 -4.174143333333333,0.0 -9.192556666666666,1.141864 -13.319026666666668,2.250834 -4.12647,1.109014 -7.304740000000001,2.217428 -7.304740000000001,2.217428 
+        l 1.2459633333333333,0.68436 
+        c 0.0,0.0 3.09534,-1.07834 7.1057733333333335,-2.156164 4.01041,-1.077794 8.99234,-2.1218 12.27203,-2.1218 5.333516666666667,0.0 8.275413333333333,-1.231684 9.644723333333333,-2.429406 1.3693233333333334,-1.197732 3.9001533333333334,-1.476088 3.9001533333333334,-1.476088 0.0,0.0 11.481133333333334,-0.840138 11.48136,-1.93354 0.00023,-1.093504 -9.999466666666667,-5.510098 -10.000263333333333,-7.696966
+        v -10
+        z"
+/>
+
+
+<rect
+    height="10" 
+    width="10" 
+    style="
+        opacity: 1;
+        fill:red; 
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+
+    x = "240"
+    y = "20"
+/>
+
+
+<rect
+    height="10" 
+    width="10" 
+    style="
+        opacity: 1;
+        fill:red; 
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+
+    x = "290"
+    y = "20"
+/>
+
+
+<rect
+    height="10" 
+    width="10" 
+    style="
+        opacity: 1;
+        fill:red; 
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+
+    x = "340"
+    y = "20"
+/>
+
+
+<rect
+    height="10" 
+    width="10" 
+    style="
+        opacity: 1;
+        fill:red; 
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+
+    x = "290"
+    y = "40"
+/>
+
+
+<rect
+    height="10" 
+    width="10" 
+    style="
+        opacity: 1;
+        fill:red; 
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+
+    x = "340"
+    y = "40"
+/>
+
+
+<rect
+    height="10" 
+    width="10" 
+    style="
+        opacity: 1;
+        fill:red; 
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+
+    x = "40"
+    y = "60"
+/>
+
+
+<rect
+    height="10" 
+    width="10" 
+    style="
+        opacity: 1;
+        fill:red; 
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+
+    x = "90"
+    y = "60"
+/>
+
+
+<rect
+    height="10" 
+    width="10" 
+    style="
+        opacity: 1;
+        fill:red; 
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+
+    x = "140"
+    y = "60"
+/>
+
+
+<rect
+    height="10" 
+    width="10" 
+    style="
+        opacity: 1;
+        fill:red; 
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+
+    x = "190"
+    y = "60"
+/>
+
+
+<rect
+    height="10" 
+    width="10" 
+    style="
+        opacity: 1;
+        fill:red; 
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+
+    x = "290"
+    y = "60"
+/>
+
+
+<rect
+    height="10" 
+    width="10" 
+    style="
+        opacity: 1;
+        fill:red; 
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+
+    x = "140"
+    y = "80"
+/>
+
+
+<rect
+    height="10" 
+    width="10" 
+    style="
+        opacity: 1;
+        fill:red; 
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+
+    x = "290"
+    y = "80"
+/>
+
+
+<rect
+    height="10" 
+    width="10" 
+    style="
+        opacity: 1;
+        fill:red; 
+        stroke:purple;
+        stroke-width:4;
+        paint-order:markers fill stroke" 
+
+    x = "190"
+    y = "100"
+/>
+
+
+<text 
+    style="
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
+        letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:blue;fill-opacity:1;stroke:none;
+        line-height:1.25;
+        " 
+    x="218.0" 
+    y="25.0"
+    dy="2.5"
+>        
+    <tspan>a</tspan>
+</text>
+
+
+<text 
+    style="
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
+        letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:blue;fill-opacity:1;stroke:none;
+        line-height:1.25;
+        " 
+    x="268.0" 
+    y="25.0"
+    dy="2.5"
+>        
+    <tspan>b</tspan>
+</text>
+
+
+<text 
+    style="
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
+        letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:blue;fill-opacity:1;stroke:none;
+        line-height:1.25;
+        " 
+    x="318.0" 
+    y="25.0"
+    dy="2.5"
+>        
+    <tspan>c</tspan>
+</text>
+
+
+<text 
+    style="
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
+        letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:orange;fill-opacity:1;stroke:none;
+        line-height:1.25;
+        " 
+    x="302.0" 
+    y="35.0"
+    dy="2.5"
+>        
+    <tspan>0</tspan>
+</text>
+
+
+<text 
+    style="
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
+        letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:blue;fill-opacity:1;stroke:none;
+        line-height:1.25;
+        " 
+    x="268.0" 
+    y="45.0"
+    dy="2.5"
+>        
+    <tspan>X</tspan>
+</text>
+
+
+<text 
+    style="
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
+        letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:blue;fill-opacity:1;stroke:none;
+        line-height:1.25;
+        " 
+    x="318.0" 
+    y="45.0"
+    dy="2.5"
+>        
+    <tspan>Y</tspan>
+</text>
+
+
+<text 
+    style="
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
+        letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:blue;fill-opacity:1;stroke:none;
+        line-height:1.25;
+        " 
+    x="18.0" 
+    y="65.0"
+    dy="2.5"
+>        
+    <tspan>A</tspan>
+</text>
+
+
+<text 
+    style="
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
+        letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:blue;fill-opacity:1;stroke:none;
+        line-height:1.25;
+        " 
+    x="68.0" 
+    y="65.0"
+    dy="2.5"
+>        
+    <tspan>B</tspan>
+</text>
+
+
+<text 
+    style="
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
+        letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:blue;fill-opacity:1;stroke:none;
+        line-height:1.25;
+        " 
+    x="118.0" 
+    y="65.0"
+    dy="2.5"
+>        
+    <tspan>C</tspan>
+</text>
+
+
+<text 
+    style="
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
+        letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:blue;fill-opacity:1;stroke:none;
+        line-height:1.25;
+        " 
+    x="168.0" 
+    y="65.0"
+    dy="2.5"
+>        
+    <tspan>D</tspan>
+</text>
+
+
+<text 
+    style="
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
+        letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:orange;fill-opacity:1;stroke:none;
+        line-height:1.25;
+        " 
+    x="352.0" 
+    y="55.0"
+    dy="2.5"
+>        
+    <tspan>0</tspan>
+</text>
+
+
+<text 
+    style="
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
+        letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:blue;fill-opacity:1;stroke:none;
+        line-height:1.25;
+        " 
+    x="268.0" 
+    y="65.0"
+    dy="2.5"
+>        
+    <tspan>E</tspan>
+</text>
+
+
+<text 
+    style="
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
+        letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:orange;fill-opacity:1;stroke:none;
+        line-height:1.25;
+        " 
+    x="202.0" 
+    y="75.0"
+    dy="2.5"
+>        
+    <tspan>3</tspan>
+</text>
+
+
+<text 
+    style="
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
+        letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:blue;fill-opacity:1;stroke:none;
+        line-height:1.25;
+        " 
+    x="118.0" 
+    y="85.0"
+    dy="2.5"
+>        
+    <tspan>F</tspan>
+</text>
+
+
+<text 
+    style="
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
+        letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:blue;fill-opacity:1;stroke:none;
+        line-height:1.25;
+        " 
+    x="268.0" 
+    y="85.0"
+    dy="2.5"
+>        
+    <tspan>G</tspan>
+</text>
+
+
+<text 
+    style="
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
+        letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:orange;fill-opacity:1;stroke:none;
+        line-height:1.25;
+        " 
+    x="302.0" 
+    y="95.0"
+    dy="2.5"
+>        
+    <tspan>1</tspan>
+</text>
+
+
+<text 
+    style="
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
+        letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:blue;fill-opacity:1;stroke:none;
+        line-height:1.25;
+        " 
+    x="168.0" 
+    y="105.0"
+    dy="2.5"
+>        
+    <tspan>H</tspan>
+</text>
+
+
+</svg>
