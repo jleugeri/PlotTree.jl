@@ -782,7 +782,7 @@
 
 <text 
     style="
-        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;
         font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
         letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:blue;fill-opacity:1;stroke:none;
         line-height:1.25;
@@ -797,7 +797,7 @@
 
 <text 
     style="
-        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;
         font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
         letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:blue;fill-opacity:1;stroke:none;
         line-height:1.25;
@@ -812,7 +812,7 @@
 
 <text 
     style="
-        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;
         font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
         letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:blue;fill-opacity:1;stroke:none;
         line-height:1.25;
@@ -827,7 +827,7 @@
 
 <text 
     style="
-        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;
         font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
         letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:orange;fill-opacity:1;stroke:none;
         line-height:1.25;
@@ -842,7 +842,7 @@
 
 <text 
     style="
-        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;
         font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
         letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:blue;fill-opacity:1;stroke:none;
         line-height:1.25;
@@ -857,7 +857,7 @@
 
 <text 
     style="
-        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;
         font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
         letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:blue;fill-opacity:1;stroke:none;
         line-height:1.25;
@@ -872,7 +872,7 @@
 
 <text 
     style="
-        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;
         font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
         letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:blue;fill-opacity:1;stroke:none;
         line-height:1.25;
@@ -887,7 +887,7 @@
 
 <text 
     style="
-        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;
         font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
         letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:blue;fill-opacity:1;stroke:none;
         line-height:1.25;
@@ -902,7 +902,7 @@
 
 <text 
     style="
-        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;
         font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
         letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:blue;fill-opacity:1;stroke:none;
         line-height:1.25;
@@ -917,7 +917,7 @@
 
 <text 
     style="
-        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;
         font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
         letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:blue;fill-opacity:1;stroke:none;
         line-height:1.25;
@@ -932,7 +932,7 @@
 
 <text 
     style="
-        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;
         font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
         letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:orange;fill-opacity:1;stroke:none;
         line-height:1.25;
@@ -947,7 +947,7 @@
 
 <text 
     style="
-        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;
         font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
         letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:blue;fill-opacity:1;stroke:none;
         line-height:1.25;
@@ -962,7 +962,7 @@
 
 <text 
     style="
-        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;
         font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
         letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:orange;fill-opacity:1;stroke:none;
         line-height:1.25;
@@ -977,7 +977,7 @@
 
 <text 
     style="
-        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;
         font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
         letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:blue;fill-opacity:1;stroke:none;
         line-height:1.25;
@@ -992,7 +992,7 @@
 
 <text 
     style="
-        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;
         font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
         letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:blue;fill-opacity:1;stroke:none;
         line-height:1.25;
@@ -1007,7 +1007,7 @@
 
 <text 
     style="
-        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;
         font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
         letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:orange;fill-opacity:1;stroke:none;
         line-height:1.25;
@@ -1022,7 +1022,7 @@
 
 <text 
     style="
-        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10;
+        font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;
         font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
         letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:blue;fill-opacity:1;stroke:none;
         line-height:1.25;

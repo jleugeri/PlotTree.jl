@@ -77,7 +77,7 @@ function show(io, ::MIME"image/svg+xml", l::Label{:segment})
     txt="""
     <text 
         style="
-            font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:$(l.cfg.font_size);
+            font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:$(l.cfg.font_size)px;
             font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
             letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:$(l.cfg.label_color);fill-opacity:1;stroke:none;
             line-height:1.25;
@@ -96,7 +96,7 @@ function show(io, ::MIME"image/svg+xml", l::Label{:connector})
     txt="""
     <text 
         style="
-            font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:$(l.cfg.font_size);
+            font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:$(l.cfg.font_size)px;
             font-family:'Bitstream Charter'; font-variant-ligatures:normal; font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;
             letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:$(l.cfg.threshold_color);fill-opacity:1;stroke:none;
             line-height:1.25;
