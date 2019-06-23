@@ -1,7 +1,9 @@
 import Base: show
 
+show(io, m::MIME"image/svg+xml", t::Node) = show(io, m, Scene(t))
+
 function show(io, m::MIME"image/svg+xml", s::Scene)
-    total_height = s.num_rows*(s.cfg.segment_height + s.cfg.connector_height) + 5*s.cfg.connector_height
+    total_height = s.num_rows*(s.cfg.segment_height + s.cfg.connector_height) + 2*s.cfg.connector_height
     total_width = s.num_columns*(s.cfg.segment_width + 2*s.cfg.text_width) + 2*s.cfg.text_width
     c=join(map(x->repr(m,x), sort(s.objects,
         by=x-> if isa(x,Segment)
@@ -21,7 +23,7 @@ function show(io, m::MIME"image/svg+xml", s::Scene)
     println(io,txt)
 end
 
-function show(io, ::MIME"image/svg+xml", s::Segment)
+function show(io, ::MIME"image/svg+xml", s::Segment{:internal})
     txt="""
     <rect
         height="$(s.cfg.segment_height)" 
@@ -40,11 +42,66 @@ function show(io, ::MIME"image/svg+xml", s::Segment)
     println(io, txt)
 end
 
-function show(io, ::MIME"image/svg+xml", c::Connector{:root})
-    scales = [ c.cfg.segment_width/3;c.cfg.connector_height/5]
+
+function show(io, ::MIME"image/svg+xml", s::Segment{:leaf})
+    txt="""
+    <path
+        style="
+            opacity: 1;
+            fill:$(s.cfg.segment_color); 
+            stroke:$(s.cfg.stroke_color);
+            stroke-width:$(s.cfg.stroke_width);
+            paint-order:markers fill stroke" 
+        d=" 
+            M $(get_column_offset(s.cfg, s.column) + s.cfg.text_width + s.cfg.segment_width) $(get_row_offset(s.cfg, s.row) + s.cfg.connector_height)
+            a $(s.cfg.segment_width/2) $(s.cfg.segment_width/2), 0, 0, 0, -$(s.cfg.segment_width) 0
+            v $(s.cfg.segment_height)
+            h $(s.cfg.segment_width)
+            v -$(s.cfg.segment_height)
+            Z
+        "
+
+            height="$(s.cfg.segment_height)" 
+            width="$(s.cfg.segment_width)" 
+        x = "$(get_column_offset(s.cfg, s.column) + s.cfg.text_width)"
+        y = "$(get_row_offset(s.cfg, s.row) + s.cfg.connector_height)"
+    />
+    """
+    println(io, txt)
+end
+
+function show(io, ::MIME"image/svg+xml", s::Segment{:root})
+    scales = [ s.cfg.segment_width/3;s.cfg.segment_height/10]
  
-    curve1 = scales.*[0 1.093433;-3.000088 3.301732;-3.000075 3.848432;1.8e-5 0.546711;3.429367 0.962483;3.429367 0.962483;0 0;0.75892 0.05264;0.41968 0.547178;-0.339238 0.494546;-0.956631 0.972537;-2.356685 0.972537;-1.252243 0;-2.757767 0.570932;-3.995708 1.125417;-1.237941 0.554507;-2.191422 1.108714;-2.191422 1.108714]'
-    curve2 = scales.*[0 0; 0.928602 -0.53917; 2.131732 -1.078082; 1.203123 -0.538897; 2.697702 -1.0609; 3.681609 -1.0609; 1.600055 0; 2.482624 -0.615842; 2.893417 -1.214703; 0.410797 -0.598866; 1.170046 -0.738044; 1.170046 -0.738044; 0 0; 3.44434 -0.420069; 3.444408 -0.96677; 6.9e-5 -0.546752; -2.99984 -2.755049; -3.000079 -3.848483]'
+    curve2 = scales.*[0 1; -3 7.45325; -3 8; 0 2; 9 2; 9 0; 0 -0.54675; -3 -6.90657; -3 -8]'
+    c2 = join(map(i->join(curve2[:,i],","), 1:size(curve2,2)), " ")
+ 
+    v = join(scales.*[0.373789, 0.34218], ",")
+    txt = """
+    <path
+        style="
+            opacity:1;
+            fill:$(s.cfg.segment_color);
+            stroke:$(s.cfg.stroke_color);
+            stroke-width:$(s.cfg.stroke_width);
+            paint-order:markers fill stroke"
+
+        d="
+            M $(get_column_offset(s.cfg, s.column) + s.cfg.text_width) $(get_row_offset(s.cfg, s.row)+s.cfg.connector_height)
+            v $(1/scales[2]) 
+            c $(c2)
+            v -$(1/scales[2])
+            z"
+    />
+    """
+    println(io, txt)
+end
+
+function show(io, ::MIME"image/svg+xml", s::Segment{:singleton})
+    scales = [ s.cfg.segment_width/3;s.cfg.segment_height/10]
+ 
+    curve1 = scales.*[0 -2; -3 -2; -3 0]'
+    curve2 = scales.*[0 1; -3 7.45325; -3 8; 0 2; 9 2; 9 0; 0 -0.54675; -3 -6.90657; -3 -8]'
     c1 = join(map(i->join(curve1[:,i],","), 1:size(curve1,2)), " ")
     c2 = join(map(i->join(curve2[:,i],","), 1:size(curve2,2)), " ")
  
@@ -53,24 +110,23 @@ function show(io, ::MIME"image/svg+xml", c::Connector{:root})
     <path
         style="
             opacity:1;
-            fill:$(c.cfg.connector_color);
-            stroke:$(c.cfg.stroke_color);
-            stroke-width:$(c.cfg.stroke_width);
+            fill:$(s.cfg.segment_color);
+            stroke:$(s.cfg.stroke_color);
+            stroke-width:$(s.cfg.stroke_width);
             paint-order:markers fill stroke"
 
         d="
-            M $(get_column_offset(c.cfg, c.column) + c.cfg.text_width + c.cfg.segment_width) $(get_row_offset(c.cfg, c.row))
-            h -$(c.cfg.segment_width)
-            v $(c.cfg.segment_width)
+            M $(get_column_offset(s.cfg, s.column) + s.cfg.text_width+s.cfg.segment_width) $(get_row_offset(s.cfg, s.row)+s.cfg.connector_height)
             c $(c1) 
-            l $(v) 
+            v $(1/scales[2]) 
             c $(c2)
-            v -$(c.cfg.segment_width)
+            v -$(1/scales[2])
             z"
     />
     """
     println(io, txt)
 end
+
 
 
 function show(io, ::MIME"image/svg+xml", l::Label{:segment})
@@ -109,25 +165,6 @@ function show(io, ::MIME"image/svg+xml", l::Label{:connector})
     </text>
     """
     println(io, txt)
-end
-
-function show(io, ::MIME"image/svg+xml", c::Connector{:cap})
-    txt="""
-    <path
-        style="
-            opacity:1;
-            fill:$(c.cfg.connector_color);
-            stroke:$(c.cfg.stroke_color);
-            stroke-width:$(c.cfg.stroke_width);
-            paint-order:markers fill stroke" 
-        d=" 
-            M $(get_column_offset(c.cfg, c.column) + c.cfg.text_width + c.cfg.segment_width) $(get_row_offset(c.cfg, c.row) + c.cfg.connector_height)
-            a $(c.cfg.segment_width/2) $(c.cfg.segment_width/2), 0, 0, 0, -$(c.cfg.segment_width) 0
-            Z
-        "
-    />
-    """
-println(io, txt)
 end
 
 function show(io, ::MIME"image/svg+xml", c::Connector{:up})
@@ -493,10 +530,54 @@ txt="""
     println(io, txt)
 end
 
-save(f::String, s::Scene) = open(f, "w") do h
-    if endswith(f, ".svg")
-        show(h, "image/svg+xml", s)
-    else
-       throw(NotImplementedError("Saving Scene objects is only supported for svg files at the moment."))
+
+function to_svg(l::AbstractString ; preamble="\\usepackage{amsmath}")
+    text="""
+    \\documentclass[border=2pt]{standalone}
+    $(preamble)
+    \\usepackage{varwidth}
+    \\begin{document}
+    \\begin{varwidth}{\\linewidth}
+    $(String(l))
+    \\end{varwidth}
+    \\end{document}
+    """
+
+    try 
+        f = tempname()
+        dir,_ = splitdir(f)
+        write(f, text)
+
+        run(pipeline(`pdflatex -halt-on-error -output-directory=$(dir) $(f)`, stdout="$(f).stdout", stderr="$(f).stderr"))
+        
+        run(pipeline(`pdf2svg $(f).pdf $(f).svg`, stdout="$(f).stdout", stderr="$(f).stderr"))
+
+        svg = open("$(f).svg") do svg
+            read(svg, String)
+        end
+        return svg
+    catch e
+        throw(ErrorException("Failed to execute conversion with error: $(e)"))
+    end
+end
+
+function save(f::String, tree::Node; style=:tree, kwargs...)
+    if style == :tree
+        open(f, "w") do h
+            if endswith(f, ".svg")
+                show(h, "image/svg+xml", Scene(tree; kwargs...))
+            else
+                throw(NotImplementedError("Saving trees is only supported for svg files at the moment."))
+            end
+        end
+    elseif style == :equation
+        eqn = repr("text/latex", tree)
+        open(f, "w") do h
+            if endswith(f, ".svg")
+                write(h, to_svg(eqn))
+            else
+                throw(NotImplementedError("Saving equations is only supported for svg files at the moment."))
+            end
+        end
     end
 end
